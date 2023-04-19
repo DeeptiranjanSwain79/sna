@@ -1,0 +1,108 @@
+.addProduct {
+    width: 50%;
+    border: none;
+    background-color: #c1d01c;
+    color: white;
+    width: 60%;
+    padding: 0.8vmax;
+    font: 400 1.8vmax "Tiro Tamil";
+    border-radius: 25px;
+    transition: all 0.5s;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.createProductForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 2vmax;
+    transition: all 0.5s;
+    width: 62vh;
+    background-color: white;
+    box-shadow: 00 10px rgba(0, 0, 0, 0.267);
+}
+
+.createProductForm>div {
+    display: flex;
+    width: 90%;
+    margin: 0.5vmax;
+    align-items: center;
+}
+
+.createProductForm>div>input,
+.createProductForm>div>textarea {
+    padding: 0.5vmax 4vmax;
+    padding-right: 1vmax;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+    font: 300 1.1vmax cursive;
+    outline: none;
+}
+
+#createProductFormImage>img {
+    width: 5vmax;
+    margin: 0.05vmax;
+}
+
+#createProductFormImage>input {
+    display: flex;
+    padding: 0%;
+}
+
+#createProductFormImage {
+    width: 100%;
+    overflow: auto;
+}
+
+#createProductFormImage>input::file-selector-button {
+    cursor: pointer;
+    height: 5vh;
+    width: 100%;
+    z-index: 2;
+    border: none;
+    margin: 0%;
+    font: 400 1.1vmax cursive;
+    transition: all 0.5s;
+    padding: 0 1vmax;
+    color: rgba(0, 0, 0, 0.648);
+    background-color: #ffffff;
+}
+
+#createProductFormImage>input::file-selector-button:hover {
+    background-color: #ebebeb;
+}
+
+#createProductBtn {
+    border: none;
+    background-color: #f5c842;
+    color: black;
+    width: 60%;
+    padding: 0.8vmax;
+    font: 400 1.8vmax "Poppins";
+    border-radius: 25px;
+    transition: all 0.5s;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+#createProductBtn:hover {
+    background-color: #e6b41c;
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.warning {
+    font: 400 1.3vmax "Poppins";
+    border-radius: 25px;
+    transition: all 0.5s;
+    outline: none;
+    color: rgb(244, 86, 86);
+    margin-top: -0.2vmax;
+    margin-bottom: -0.2vmax;
+}
